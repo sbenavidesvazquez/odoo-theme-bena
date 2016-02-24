@@ -1,0 +1,22 @@
+/*
+Estilo de la pagina servicios
+*/
+/* 
+    Created on : 19-feb-2016, 12:31:06
+    Author     : Sergio Benavides
+*/
+.services{
+    background: #36C6F2;
+    padding: 1em;
+    margin: 2em 0 3em;
+}
+.services li{
+    display: block;
+        position: relative;
+        background-color: #16a085;
+        color: #808080;
+        padding: 2em;
+        text-align: center;
+        margin-bottom: 1em;
+        font-size: 1.5em;
+}
