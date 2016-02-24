@@ -13,6 +13,7 @@
 'data':['Views/layout.xml',
 'Views/page.xml',
 'Views/assets.xml',
+'Views/snippets.xml'
 ],
 #categoria
 'category':'theme/creative',
