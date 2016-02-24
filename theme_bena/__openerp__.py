@@ -12,7 +12,7 @@
 #Archivos en uso
 'data':['Views/layout.xml',
 'Views/page.xml',
-'Views/assets.xml'
+'Views/assets.xml',
 ],
 #categoria
 'category':'theme/creative',
