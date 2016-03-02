@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<openerp>
+    <data>
+        
+        <!-- === Pagina vacaciones === -->
+    <template name="Vacaciones page" id="website.vacaciones" page="True">
+    <img></img>
+    <div id="wrap">
+      <div class="container">
+        <h1>Our Services</h1>
+        <ul class="services">
+          <li>Cloud Hosting</li>
+          <li>Support</li>
+          <li>Unlimited space</li>
+        </ul>
+        <!-- === Area de Snippets === -->
+       <div class="oe_structure" />
+      </div>
+    </div>
+  
+        
+    </data>
+</openerp>

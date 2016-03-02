@@ -2,6 +2,7 @@
 <!-- Snippets para crear una organizacion editable de la pagina -->
 <openerp>
     <data>
+        
         <template id="snippet_testimonial" name="Bena snippet">
             <section class="snippet_testimonial">
                 <div class="container text-center">
@@ -25,11 +26,13 @@
                 </div>
             </section>
         </template>
+         
         <!-- Un sitio en el bar editor, que permita copiar y borrar en la página -->
+       
         <template id="place_into_bar" inherit_id="website.snippets" name="Place into bar">
             <xpath expr="//div[@id='snippet_structure']" position="inside">
                 <t t-snippet="theme_bena.snippet_testimonial"
-       t-thumbnail="/theme_bena/static/img/snippet_thumb.jpg"/> 
+       t-thumbnail="/theme_bena/static/img/icon.png"/> 
             </xpath>
         </template>
         
