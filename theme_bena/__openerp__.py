@@ -14,7 +14,8 @@
 'Views/page.xml',
 'Views/assets.xml',
 'Views/snippets.xml',
-'Views/options.xml'
+'Views/options.xml',
+'Views/vacaciones.xml'
 ],
 #categoria
 'category':'theme/creative',

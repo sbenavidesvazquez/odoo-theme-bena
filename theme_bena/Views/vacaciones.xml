@@ -7,23 +7,28 @@ and open the template in the editor.
 
 <openerp>
     <data>
-        
-        <!-- === Pagina vacaciones === -->
-    <template name="Vacaciones page" id="website.vacaciones" page="True">
-    <img></img>
+    <!-- === Pagina servicios === -->
+    <template name="vacaciones page" id="website.vacaciones" page="True">
+        <t t-call="website.layout">
     <div id="wrap">
       <div class="container">
-        <h1>Our Services</h1>
-        <ul class="services">
-          <li>Cloud Hosting</li>
-          <li>Support</li>
-          <li>Unlimited space</li>
+        <h1>Nuestras vacaciones</h1>
+        <ul class="Vacaciones">
+            <li> <img src="/theme_bena/static/img/icon.png" /> Aqui esta el texto de las vacaviones</li>
         </ul>
         <!-- === Area de Snippets === -->
-       <div class="oe_structure" />
+       <div class="oe_estructure" />
       </div>
     </div>
-  
+  </t>
+</template>
+    
+  <record id="vacaciones_page_link" model="website.menu">
+  <field name="name">vacaciones</field>
+  <field name="url">/page/vacaciones</field>
+  <field name="parent_id" ref="website.main_menu" />
+  <field name="sequence" type="int">100</field>
+</record>
         
     </data>
 </openerp>

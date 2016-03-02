@@ -39,3 +39,22 @@ Estilo de la pagina servicios
     border: none;
     background-color: #EAEAEA;
   }
+  .Vacaciones{
+      background: #FE9A2E;
+      padding: 1em;
+      margin: 2em 0 3em;
+  }
+  .Vacaciones li{
+    display: block;
+    position: relative;
+    background-color: #E67E22;
+    color: #D35400;
+    padding: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+img{
+    float: left;
+    margin: 0 0 10px 10px;
+}
